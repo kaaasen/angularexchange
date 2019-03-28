@@ -1,14 +1,14 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center" class="p-3 mb-2 bg-dark text-white">
+<div style="text-align:center">
   <h2>
     {{ title }}
   </h2>
 </div>
-<ul class="list-group p-3 mb-2 bg-dark text-white">
+<ul class="list-group">
   <li class="list-group-item d-flex justify-content-between align-items-center"
   *ngFor="let item of results">
     {{ item.symbel }}
-    <h1><span class="badge p-2 mb-1 bg-dark text-white">{{ item.price }}</span></h1>
+    <h1><span class="badge badge-warning p-2 mb-3">{{ item.price }}</span></h1>
   </li>
 </ul>
 
